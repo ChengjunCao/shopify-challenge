@@ -1,0 +1,9 @@
+.hidden {
+  display: none
+}
+.banner {
+  background-color: wheat;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+}
