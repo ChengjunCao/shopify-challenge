@@ -42,7 +42,7 @@ class App extends React.Component {
   }
 
   fetchData = async() => {
-    const response = await fetch(`https://cors-anywhere.herokuapp.com/http://www.omdbapi.com/?s=${this.state.search}&apikey=d67d7d51`)
+    const response = await fetch(`http://www.omdbapi.com/?s=${this.state.search}&apikey=d67d7d51`)
     const data = await response.json();
     this.setState({ results: data.Search, disabled: [] })
   }
