@@ -1,12 +1,13 @@
-import React from 'react'
-import './Search.css'
+import React from 'react';
+import './Search.css';
+
 export default function Search(props) {
     return (
         <div className="Search">
             <div className="InnerDiv">
                 <h4>Movie title</h4>
                 <input
-                    style={{width: '100%'}}
+                    style={{width: '100%', height: 23}}
                     name="search" 
                     value={props.search}
                     placeholder='Search...'

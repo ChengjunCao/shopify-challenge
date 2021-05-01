@@ -70,7 +70,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Banner hidden={this.state.hidden}/>
-        <h2>The Shoppies</h2>
+        <h1>The Shoppies</h1>
         <div className="Grid">
           <Search 
             search={this.state.search}
